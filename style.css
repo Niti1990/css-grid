@@ -1,0 +1,55 @@
+.grid-item1 {
+	grid-area: one;
+}
+.grid-item1 {
+	grid-area: two;
+}
+.grid-item1 {
+	grid-area: three;
+}
+.grid-item1 {
+	grid-area: four;
+}
+.grid-item1 {
+	grid-area: five;
+}
+.grid-item1 {
+	grid-area: six;
+}
+.grid-item1 {
+	grid-area: seven;
+}
+.grid-item1 {
+	grid-area: eight;
+}
+.grid-item1 {
+	grid-area: nine;
+}
+.grid-item1 {
+	grid-area: ten;
+}
+.grid-item1 {
+	grid-area: eleven;
+}
+.grid-item1 {
+	grid-area: twelve;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'one two three'
+		'four five six'
+		'seven eight nine'
+		'ten eleven twelve';
+	gap: 10px;
+	background-color: #2196f3;
+	padding: 10px;
+}
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 5px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
